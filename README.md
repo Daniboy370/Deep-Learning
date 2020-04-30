@@ -4,9 +4,9 @@ Using tensorflow's open-source library for [object detection](https://github.com
 
 - **Single Shot Detector (SSD)** (classification and localization) :
 
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/images/classified.png)
+![alt text](https://github.com/Daniboy370/Deep-Learning/Side-Projects/SSD_object_detection/images/classified.png)
 
 - **Mask R-CNN inception resnet v2** (Instance segmentation) :
 
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/images/segmentation.png)
+![alt text](https://github.com/Daniboy370/Deep-Learning/Side-Projects/SSD_object_detection/images/segmentation.png)
 
