@@ -10,3 +10,8 @@ Using tensorflow's open-source library for [object detection](https://github.com
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/instance_segmentation.png)
 
+
+- **DeepLab_v3 implmentation** (Instance segmentation) :
+
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
+
