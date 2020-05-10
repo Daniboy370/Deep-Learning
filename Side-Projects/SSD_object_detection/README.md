@@ -22,16 +22,12 @@ Python 3.4, OpenCV (cv2) and other common packages listed in `requirements.txt`.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
 
 ## Citation
-Use this bibtex to cite this repository:
 ```
 @ARTICLE{7913730,
   author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}, 
-  year={2018},
-  volume={40},
-  number={4},
-  pages={834-848},}
+  year={2018}, volume={40}, number={4}, pages={834-848},}
 ```
 
 ## Requirements
