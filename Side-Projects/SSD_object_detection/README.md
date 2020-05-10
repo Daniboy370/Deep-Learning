@@ -1,5 +1,5 @@
-## 
-SSD
+## DeepLab implementation
+Semantic image segmentation with deep convolutional nets, atrous convolution and FCC. Based on Tensorflow's [library](https://github.com/tensorflow/models/tree/master/research/deeplab) available models.
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/SSD_img.png)
 
