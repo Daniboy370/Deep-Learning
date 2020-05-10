@@ -16,7 +16,7 @@ Using tensorflow's open-source library for [object detection](https://github.com
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
 ## Citation
-The models are based on the following paper :
+The models are based on the following paper, available [here](https://arxiv.org/abs/1606.00915) :
 ```
 @ARTICLE{7913730,
   author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
