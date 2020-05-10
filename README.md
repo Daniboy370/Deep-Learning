@@ -23,3 +23,15 @@ The models are based on the following paper :
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}, year={2018}, volume={40}, number={4}, pages={834-848},}
 ```
+and [Matterport, Inc](https://matterport.com/) Sunnyvale, CA :
+
+```
+@misc{matterport_maskrcnn_2017,
+  title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
+  author={Waleed Abdulla},
+  year={2017},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/matterport/Mask_RCNN}},
+}
+```
