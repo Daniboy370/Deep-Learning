@@ -1,3 +1,8 @@
+## 
+SSD
+
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/SSD_img.png)
+
 ## Requirements
 Python 3.4, OpenCV (cv2) and other common packages listed in `requirements.txt`.
 
@@ -11,8 +16,7 @@ Python 3.4, OpenCV (cv2) and other common packages listed in `requirements.txt`.
     ```bash
     python3 setup.py install
     ``` 
-4. Run main script on  
-
+4. Run main script on 
     * Linux: https://github.com/waleedka/coco
     * Windows: https://github.com/philferriere/cocoapi.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
