@@ -15,3 +15,11 @@ Using tensorflow's open-source library for [object detection](https://github.com
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
+## Citation
+The models are based on the following paper :
+```
+@ARTICLE{7913730,
+  author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}, year={2018}, volume={40}, number={4}, pages={834-848},}
+```
