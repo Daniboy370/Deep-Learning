@@ -21,15 +21,18 @@ Python 3.4, OpenCV (cv2) and other common packages listed in `requirements.txt`.
     * Windows: https://github.com/philferriere/cocoapi.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
 
+## Citation
+Use this bibtex to cite this repository:
+```
+@ARTICLE{7913730,
+  author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs}, 
+  year={2018},
+  volume={40},
+  number={4},
+  pages={834-848},}
+```
 
-## Contents
-
-Extended Kalman Filter solution for a navigation strapdown model ,
-under Technion course : 
-Advanced Applications in Inertial Navigation Systems (018827).
-
-## Additional
-Raw data of IMU and GPS that can be selectively noised by to the user.
-Full online code and exact code
-
-[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/SSD_object_detection)
+## Requirements
+Python 3.4, TensorFlow 1.3, Keras 2.0.8 and other common packages listed in `requirements.txt`.
