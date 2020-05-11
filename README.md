@@ -12,6 +12,7 @@ Which corresponds to the following label map as seen by the Mask R-CNN :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
 
+An auxiliary function was defined to allow extraction for classes 'person' and 'dog', which can be seen in the overall classes 
 
 #
 Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
