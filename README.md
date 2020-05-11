@@ -43,7 +43,7 @@ Using tensorflow's open-source library for [object detection](https://github.com
   title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, 
   and Fully Connected CRFs}, year={2018}, volume={40}, number={4}, pages={834-848},}
 ```
-* [Matterport, Inc](https://matterport.com/) [library](https://github.com/matterport/Mask_RCNN) implementation for Mask R-CNN  :
+* Matterport Inc. amazing library implementation for [Mask R-CNN](https://github.com/matterport/Mask_RCNN)  :
 
 ```
 @misc{matterport_maskrcnn_2017,
