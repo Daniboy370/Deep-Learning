@@ -35,7 +35,7 @@ Using tensorflow's open-source library for [object detection](https://github.com
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
 ## Citation
-The models are based on the following paper, available [here](https://arxiv.org/abs/1606.00915) :
+* Google Inc. state of the art implementation for [DeepLab](https://arxiv.org/abs/1606.00915) :
 ```
 @ARTICLE{7913730,
   author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
@@ -43,7 +43,7 @@ The models are based on the following paper, available [here](https://arxiv.org/
   title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, 
   and Fully Connected CRFs}, year={2018}, volume={40}, number={4}, pages={834-848},}
 ```
-and [Matterport, Inc](https://matterport.com/) Sunnyvale, CA :
+* [Matterport, Inc](https://matterport.com/) [library](https://github.com/matterport/Mask_RCNN) implementation for Mask R-CNN  :
 
 ```
 @misc{matterport_maskrcnn_2017,
