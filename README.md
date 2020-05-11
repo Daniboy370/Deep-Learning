@@ -8,7 +8,7 @@ The model was pretrained on [MS COCO](http://cocodataset.org/#home) dataset for 
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Reporter_dogs.png)
 
-Which corresponds to the following label map as seen by the Mask R-CNN :
+The Mask R-CNN returns a label map after after filtering the likeliest classes out of all estimated :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
 
