@@ -3,7 +3,15 @@
 * MASK R-CNN :  an online implementation of the [MASK R-CNN](https://arxiv.org/abs/1703.06870) paper using Python 3, Keras and TF. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
 
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_2.gif)
-  
+
+The model was pretrained on [MS COCO](http://cocodataset.org/#home) dataset for segmented objectes with context. Each frame in the footage undergoes a detection process that returns a python *dictionary* containing bounding boxes, segmentation masks, likeliest detected class and score. Consider the following image :
+
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Reporter_dogs.png)
+
+Which corresponds to the following label map as seen by the Mask R-CNN :
+
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
+
 
 #
 Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
