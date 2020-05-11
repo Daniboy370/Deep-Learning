@@ -87,4 +87,4 @@ If you use Docker, the code has been verified to work on
 
 
 ## Technion course homeworks
-[Here](https://github.com/Daniboy370/Deep-Learning/tree/master/Homeworks) is a link for several homeworks assignment from the Technion crouse [[link](https://www.graduate.technion.ac.il/Subjects.Heb/?Sub=97200)]
+[Here](https://github.com/Daniboy370/Deep-Learning/tree/master/Homeworks) is a link for several homeworks assignment from the Technion [[crouse](https://www.graduate.technion.ac.il/Subjects.Heb/?Sub=97200)]
