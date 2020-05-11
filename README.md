@@ -13,7 +13,7 @@ The Mask R-CNN returns a label map after after filtering the likeliest classes o
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
 
 
-An auxiliary function was defined to extract full colors for the 'person' and 'dog' classes, leaving any other class as default "0" / background (BG). Normally, the Mask R-CNN return any detectable class, shown in color, bounding box, category and confidence level : 
+An auxiliary function was defined to extract full colors for the 'person' and 'dog' classes, leaving other classes as "0" / background (BG). By default, the Mask R-CNN return any detectable class, shown in color, bounding box, category and confidence level : 
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/COCO_test_0.png)
 
