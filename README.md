@@ -69,8 +69,8 @@ If you use Docker, the code has been verified to work on
 
 
 ## Installation
-1. Clone this repository
-2. Install dependencies
+1. Clone the desired repository in the root directory
+2. Install dependencies 
    ```bash
    pip3 install -r requirements.txt
    ```
