@@ -1,38 +1,10 @@
 * MASK R-CNN :  an online implementation of the [MASK R-CNN](https://arxiv.org/abs/1703.06870) paper using Python 3, Keras and TF. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
 
- &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_2.gif)
-
-The model was pretrained on [MS COCO](http://cocodataset.org/#home) dataset for segmented objectes with context. Each frame in the footage undergoes a detection process that returns a python *dictionary* containing bounding boxes, segmentation masks, likeliest detected class and score. Consider the following image of a prime time broadcast, where the reporter was encountered an uninvited visitors :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Reporter_dogs.png)
-
-The Mask R-CNN returns a label map after after filtering the likeliest classes out of all estimated :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_1.gif)
 
 An auxiliary function was defined to extract full colors for the 'person' and 'dog' classes, leaving other classes as "0" / background (BG). By default, the Mask R-CNN return any detectable class, shown in color, bounding box, category and confidence level : 
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/COCO_test_0.png)
-
-
-#
-Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
-
-
-* SSD - Single Shot Detector (classification and localization) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/classified_objects.png)
-
-#
-* Mask R-CNN inception resnet v2 (Instance segmentation) :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/instance_segmentation.png)
-
-
-#
-* DeepLab_v3 implmentation (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
 ## Citation
 The models are based on the following paper, available [here](https://arxiv.org/abs/1606.00915) :
@@ -84,8 +56,4 @@ If you use Docker, the code has been verified to work on
     * Linux: https://github.com/waleedka/coco
     * Windows: https://github.com/philferriere/cocoapi.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
-
-
-## Technion course homeworks
-[Here](https://github.com/Daniboy370/Deep-Learning/tree/master/Homeworks) is a link for several homeworks assignment from the Technion [[crouse](https://www.graduate.technion.ac.il/Subjects.Heb/?Sub=97200)]
 
