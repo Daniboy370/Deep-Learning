@@ -13,7 +13,10 @@ The Mask R-CNN returns a label map after after filtering the likeliest classes o
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
 
 
-An auxiliary function was defined to extract full colors for the 'person' and 'dog' classes, leaving any other class as default "0" / background (BG).
+An auxiliary function was defined to extract full colors for the 'person' and 'dog' classes, leaving any other class as default "0" / background (BG). Normally, the Mask R-CNN return any detectable class, shown in color, bounding box, category and confidence level : 
+
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/COCO_test_0.png)
+
 
 #
 Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
