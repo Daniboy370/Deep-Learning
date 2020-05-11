@@ -1,17 +1,27 @@
 # Deep-Learning
 
+## 
+**MASK R-CNN**  ::  an online implementation of the [MASK R-CNN](https://arxiv.org/abs/1703.06870) paper using Python 3, Keras and TensorFlow. My implementation extracts a desired label (out of 80 classes) and emphasize its regions by converting any other class into B&W :
+
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_2.gif)
+  
+
+
 Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models :
 
-- **SSD - Single Shot Detector (classification and localization)** [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
+#
+**SSD - Single Shot Detector (classification and localization)** [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/classified_objects.png)
 
-- **Mask R-CNN inception resnet v2** (Instance segmentation) :
+#
+**Mask R-CNN inception resnet v2** (Instance segmentation) :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/instance_segmentation.png)
 
 
-- **DeepLab_v3 implmentation** (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
+#
+**DeepLab_v3 implmentation** (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
