@@ -15,34 +15,8 @@ An auxiliary function was defined to extract full colors for the 'person' and 'd
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/COCO_test_0.png)
 
 
-#
-Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
-
-
-* SSD - Single Shot Detector (classification and localization) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/classified_objects.png)
-
-#
-* Mask R-CNN inception resnet v2 (Instance segmentation) :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/instance_segmentation.png)
-
-
-#
-* DeepLab_v3 implmentation (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
-
-![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
 
 ## Citation
-* Google Inc. state of the art implementation for [DeepLab](https://arxiv.org/abs/1606.00915) :
-```
-@ARTICLE{7913730,
-  author={L. {Chen} and G. {Papandreou} and I. {Kokkinos} and K. {Murphy} and A. L. {Yuille}},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
-  title={DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, 
-  and Fully Connected CRFs}, year={2018}, volume={40}, number={4}, pages={834-848},}
-```
 * Matterport Inc. amazing library implementation for [Mask R-CNN](https://github.com/matterport/Mask_RCNN)  :
 
 ```
