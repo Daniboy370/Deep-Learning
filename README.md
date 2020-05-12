@@ -28,6 +28,8 @@ Using tensorflow's open-source library for [object detection](https://github.com
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/instance_segmentation.png)
 
+That R-CNN is different from regular CNN for image classification, as it is used to focus on regions, since determining the location of multiple objects is essential to this type of model. The image is splitted into a dozens of different boxes (regions) to check if any of them have signs of an object at desired class. It then uses region proposal networks (RPN) which ranks the specific regions that most likely has the object :
+![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/RCNN-ROI.png)
 
 #
 * DeepLab_v3 implmentation (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
