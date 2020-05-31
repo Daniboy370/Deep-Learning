@@ -6,7 +6,7 @@ The model was pretrained on [MS COCO](http://cocodataset.org/#home) dataset for 
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Reporter_dogs.png)
 
-The Mask R-CNN returns a label map after after filtering the likeliest classes out of all estimated :
+The Mask R-CNN returns a label map after filtering the likeliest classes out of all estimated :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/image_labels_map.png)
 
