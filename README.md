@@ -27,7 +27,7 @@ An auxiliary function was defined to extract full colors for the 'person' and 'd
 Single Shot Detector
 --------------------
 
-Using tensorflow's open-source library for [object detection](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) I implemented two models on frozen images :
+Using tensorflow's open-source library for object detection I implemented two models on frozen images,
 for classification and localization [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/classified_objects.png)
