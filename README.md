@@ -1,6 +1,6 @@
 <!--ts-->
 + [MASK R-CNN](#MASK-R-CNN)
-+ [Table of contents](#table-of-contents)
++ [Deeplab v3](#Deeplab-v3)
 + [Installation](#installation)
 + [Requirements](#Requirements)
 + [Installation](#Installation)
@@ -42,7 +42,8 @@ That R-CNN is different from regular CNN for image classification, as it is used
 
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/RCNN-roi.png)
 
-#
+Deeplab v3 tensorflow
+--------------------
 * DeepLab_v3 implmentation (Instance segmentation) [[link](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/img_object_detection.ipynb)] :
 
 ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/SSD_object_detection/Images/comparison.png)
