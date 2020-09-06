@@ -5,14 +5,23 @@
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco
 ```
 
-* An online implementation of the [**MASK R-CNN**](https://arxiv.org/abs/1703.06870) paper using [**MS COCO**](https://cocodataset.org/) dataset. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
+* An online implementation of the [**MASK R-CNN**](https://arxiv.org/abs/1703.06870) using a pre-trained weights on [**MS COCO**](https://cocodataset.org/) dataset. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
 
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_1.gif)
 
 
-### DIY : Create your own annotated dataset
+### DIY : Create your *own* annotated dataset
+ 
+```
+# Install segmentation and annotation tool
+sudo apt-get install pyqt5-dev-tools
+sudo pip3 install -r requirements/requirements-linux-python3.txt
+make qt5py3
+python3 labelImg.py
+python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
+```
 
-* Starting with classification and localization pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+* Starting with classification and localization of pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
 ![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
 
 ```
@@ -23,7 +32,11 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
 ```
 
-* Then, performing transfer learning on an ImageNet weights, we train the model on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
+* Then, performing transfer learning on an ImageNet weights, the model is trained on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
+
+<img src=https://miro.medium.com/max/500/1*N5drojTDmlz_uThxPBog2w.gif width=400 align='center'/>
+
+
 
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/YOLO-v3%20Detection.gif)
 
