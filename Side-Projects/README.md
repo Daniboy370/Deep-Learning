@@ -1,5 +1,4 @@
-Pretrained weights on MS COCO using Mask RCNN
------
+#### Pretrained weights on MS COCO using Mask RCNN
 
 * An online implementation of the [**MASK R-CNN**](https://arxiv.org/abs/1703.06870) paper using [**MS COCO**](https://cocodataset.org/) dataset. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
 
@@ -8,10 +7,9 @@ Pretrained weights on MS COCO using Mask RCNN
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_1.gif)
 
 
-DIY : Create your own annotated dataset
------
+#### DIY : Create your own annotated dataset
 
-* Starting with classification and localization pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :
+* Starting with classification and localization pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
 ![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
 
 * Then, performing transfer learning on an ImageNet weights, we train the model on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
