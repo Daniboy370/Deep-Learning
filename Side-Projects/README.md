@@ -21,7 +21,9 @@ python3 labelImg.py
 python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
 
-* Starting with classification and localization of cars in image, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+* Starting with classification and localization of cars in image, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) : 
+
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
 ![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
 
 ```
