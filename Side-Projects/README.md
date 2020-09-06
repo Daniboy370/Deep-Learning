@@ -1,9 +1,9 @@
 ## Pretrained weights on MS COCO using Mask RCNN
 
-`
+```
 # Train a new model starting from pre-trained COCO weights
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco
-`
+```
 
 * An online implementation of the [**MASK R-CNN**](https://arxiv.org/abs/1703.06870) paper using [**MS COCO**](https://cocodataset.org/) dataset. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
 
