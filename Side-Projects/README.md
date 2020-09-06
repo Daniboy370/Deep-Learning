@@ -1,11 +1,30 @@
-* MASK R-CNN :  an online implementation of the [MASK R-CNN](https://arxiv.org/abs/1703.06870) paper using Python 3, Keras and TF. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
+Pretrained weights on MS COCO using Mask RCNN
+-----
+
+* An online implementation of the [**MASK R-CNN**](https://arxiv.org/abs/1703.06870) paper using [**MS COCO**](https://cocodataset.org/) dataset. My implementation extracts a desired label (out of 80 classes) and emphasize its ROI by converting any other class into B&W [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Mask_RCNN)] :
+
+`python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco`
 
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_1.gif)
 
 
-* YOLO-v3 : an implementation of an object detector for several priorly trained groceries at local supermarket [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
+DIY : Create your own annotated dataset
+-----
+
+* Starting with classification and localization pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :
+![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
+
+* Then, performing transfer learning on an ImageNet weights, we train the model on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
 
 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/YOLO-v3%20Detection.gif)
+
+`
+# Train a new model starting from ImageNet weights
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
+
+# Continue training a model that you had trained earlier
+python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
+`
 
 ## Citation
 The models are based on the following paper, available [here](https://arxiv.org/abs/1606.00915) :
