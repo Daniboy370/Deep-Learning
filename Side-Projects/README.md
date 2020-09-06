@@ -21,7 +21,7 @@ python3 labelImg.py
 python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 ```
 
-* Starting with classification and localization of pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+* Starting with classification and localization of cars in image, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
 ![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
 
 ```
@@ -32,13 +32,9 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
 ```
 
-* Then, performing transfer learning on an ImageNet weights, the model is trained on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
+* After a sufficient amount of iterations, the model can be executed on any video for the detection task :
 
-<img src=https://miro.medium.com/max/500/1*N5drojTDmlz_uThxPBog2w.gif width=400 align='center'/>
-
-
-
-&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/YOLO-v3%20Detection.gif)
+&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://miro.medium.com/max/500/1*N5drojTDmlz_uThxPBog2w.gif)
 
 ## Citation
 The models are based on the following paper, available [here](https://arxiv.org/abs/1606.00915) :
