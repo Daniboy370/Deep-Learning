@@ -1,4 +1,4 @@
-## Pretrained weights on MS COCO using Mask RCNN
+### Pretrained weights on MS COCO using Mask RCNN
 
 ```
 # Train a new model starting from pre-trained COCO weights
@@ -10,18 +10,18 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco
  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; ![alt text](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Mask_RCNN/saved_files/Aladdin_GIF_1.gif)
 
 
-## DIY : Create your own annotated dataset
+### DIY : Create your own annotated dataset
 
 * Starting with classification and localization pharmacy items, using the handiest labeling tool - [***LabelImg***](https://github.com/tzutalin/labelImg) :  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
 ![](https://github.com/Daniboy370/Deep-Learning/blob/master/Side-Projects/Yolo-V3%20Detection/Label-Master/LabelImg_GIF.gif?raw=true)
 
-`
+```
 # Train a new model starting from ImageNet weights
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
 
 # Continue training a model that you had trained earlier
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/weights.h5
-`
+```
 
 * Then, performing transfer learning on an ImageNet weights, we train the model on a list of pharmacy items [[link](https://github.com/Daniboy370/Deep-Learning/tree/master/Side-Projects/Yolo-V3%20Detection)] :
 
